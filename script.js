@@ -1,0 +1,110 @@
+let a = "10";
+
+if (a === "10") {
+    console.log("Верно");
+} else {
+    console.log("Неверно");
+}
+
+
+
+let baatir = 33;
+
+
+if (baatir >= 1 && baatir <= 20) {
+    console.log("First floor");
+} else if (baatir >= 21 && baatir <= 48) {
+    console.log("Second floor");
+} else if ((baatir >= 49 && baatir <= 90)) {
+    console.log("Third floor");
+}
+
+
+
+
+let a = 5;
+
+if (a >= 0 && a < 5) {
+    console.log("Верно");
+} else {
+    console.log("Неверно");
+}
+
+
+
+
+const hour = 24;
+if (hour >= 5 && hour <= 12) {
+    console.log('Доброе утро!');
+} else if (hour >= 12 && hour <= 17) {
+    console.log('Добрый день!');
+} else if (hour >= 18 && hour <= 21){
+    console.log('Добрый вечер!');
+} else {
+    console.log("Доброй ночи!");
+}
+
+
+
+let userName = prompt("Ваше имя:")
+
+console.log(Кутман кеч, ${userName}!);
+
+
+
+let userAge = 41;
+
+if (userAge <= 6 && userAge >= 65) {
+    console.log("Скидка");
+} else {
+    console.log("Без скидки");
+}
+
+
+
+let firstPlayer = prompt("Select");
+let secondPlayer = prompt("Select");
+
+if (firstPlayer === "бумага" && secondPlayer === "ножницы") {
+    console.log("Выиграл второй игрок"); 
+} else if (firstPlayer === "ножницы" && secondPlayer === "бумага") {
+    console.log("Выиграл первый игрок"); 
+} else if (firstPlayer === "бумага" && secondPlayer === "камень") {
+    console.log("Выиграл первый игрок"); 
+} else if (firstPlayer === "камень" && secondPlayer === "бумага") {
+    console.log("Выиграл второй игрок"); 
+} else if (firstPlayer === "бумага" && secondPlayer === "бумага") {
+    console.log("Ничья");
+} else if (firstPlayer === "ножницы" && secondPlayer === "камень") {
+    console.log("Выиграл второй игрок"); 
+} else if (firstPlayer === "камень" && secondPlayer === "ножницы") {
+    console.log("Выиграл первый игрок"); 
+} else if (firstPlayer === "камень" && secondPlayer === "камень") {
+    console.log("Ничья");
+} else if (firstPlayer === "ножницы" && secondPlayer === "ножницы") {
+    console.log("Ничья");
+}
+
+
+
+const number = 7; 
+
+if (number % 2 === 0) { 
+             console.log('Число чётное');
+ } else { 
+            console.log('Число нечётное');
+ }
+
+ console.log("если при делении числа на 2 остаток равен 0, то число - четное, а в обратном случае - число нечетное");
+
+
+
+let num = 5;
+
+//  if (num === 5) {
+//       console.log("Five"); 
+// } else {
+//       console.log("Not five"); 
+// }
+
+let n = num === 5 ? console.log("Five") : console.log("Not five");
